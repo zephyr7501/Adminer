@@ -12,7 +12,7 @@ cp .env.example .env
 ```bash
 cp SOURCE docker/data/SOURCE
 ```
-*.sql, *.spl.gz を放り込んでおくとコンテナの初回up時に自動的にインポートされます。  
+*.sql, *.sql.gz を放り込んでおくとコンテナの初回up時に自動的にインポートされます。  
 命名に際し制限はありませんが、複数のソースがある場合は昇順にインポートされます。
 
 ### Dockerコンテナの起動
